@@ -10,7 +10,7 @@ var db, server;
 var filename = 'vote.db',
 	port = 8081;
 
-console.log('...........................Refresh plz')
+console.log('...............[SERVER]/creaictive-award')
 
 server = ws.createServer(function (conn){
 	fs.exists(filename, function(ex){
@@ -24,6 +24,7 @@ server = ws.createServer(function (conn){
 					fs.close(fd);
 	}); }); }); });
 
+	process.stdout.write('\033c');
 	console.log('-------------------------------')
 	console.log('Welcome to ICT Award 1.0 server')
 	console.log('made by ICT SEP MHIS 2016')
@@ -109,7 +110,7 @@ server = ws.createServer(function (conn){
 						count++;
 					});
 				});
-				
+
 				var wait = setInterval(function(){
 					if (count==category.length){
 						clearInterval(wait);

@@ -1,0 +1,25 @@
+{
+  "name": "creaictive-award",
+  "version": "1.0.0",
+  "description": "artwork exhibition e-voting platform at school",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amharfm/creaictive-award.git"
+  },
+  "author": "amhar.fm, creaictive, mhis, indonesia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amharfm/creaictive-award/issues"
+  },
+  "homepage": "https://github.com/amharfm/creaictive-award#readme",
+  "dependencies": {
+    "address": "^1.0.3",
+    "nodejs-websocket": "^1.7.1",
+    "sqlite3": "^3.1.13"
+  }
+}
